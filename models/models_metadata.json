@@ -1,0 +1,37 @@
+{
+  "best_model_name": "Random Forest",
+  "best_r2": 0.9886,
+  "best_rmse": 70.72,
+  "best_mae": 44.05,
+  "features": [
+    "area_m2",
+    "habitaciones",
+    "banos",
+    "parqueaderos",
+    "antiguedad_anos",
+    "estrato",
+    "zona",
+    "tiene_piscina",
+    "tiene_ascensor"
+  ],
+  "models_summary": {
+    "Random Forest": {
+      "r2_score": 0.9886,
+      "rmse": 70.72,
+      "mae": 44.05,
+      "mape": 7.88
+    },
+    "Gradient Boosting": {
+      "r2_score": 0.9881,
+      "rmse": 72.07,
+      "mae": 42.22,
+      "mape": 6.39
+    },
+    "Ridge Regression": {
+      "r2_score": 0.9749,
+      "rmse": 104.82,
+      "mae": 81.03,
+      "mape": 20.78
+    }
+  }
+}

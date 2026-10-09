@@ -1,0 +1,1 @@
+# Model artifacts are generated on runtime or via src/train_model.py
